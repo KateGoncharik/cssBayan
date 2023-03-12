@@ -25,6 +25,8 @@ body {
     opacity: 1;
 }
 
+
+
 .accordion-block h1 {
     padding: 0 20px;
     font-size: 24px;
@@ -50,13 +52,18 @@ body {
 }
 
 
-input:active .plus {
+.accordion-block input[type=radio]:checked label .plus {
+    opacity: 0;
+}
+
+
+/* input:active .plus {
     opacity: 0;
 }
 
 input:active .cross {
     opacity: 1;
-}
+} */
 
 .accordion-block .section {
     /* position: relative; */
